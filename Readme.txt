@@ -1,6 +1,9 @@
-Thanks for downloading this template!
+Only phyed 
+Bridging GAP...
 
-Template Name: Vesperr
-Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Welcome to PHYED! We are an education technology company dedicated to revolutionizing the way people learn.
+-> High-quality education 
+-> User-friendly and intuitive
+-> Engaging and Enjoyable 
+->Animated course content 
+->Cater to unique learning styles
