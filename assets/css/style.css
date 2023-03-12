@@ -1,13 +1,4 @@
-/**
-* Template Name: Vesperr - v4.10.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -86,6 +77,7 @@ h6 {
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background-color: #67bcf5;
   padding: 12px 0;
 }
 
