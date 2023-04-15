@@ -49,14 +49,6 @@
   z-index: 1;
 }
 
-@media all and (min-width: 992px) {
-  .sidebar .nav>li.active-pro {
-    position: absolute;
-    width: 100%;
-    bottom: 10px;
-  }
-}
-
 .card.card-upgrade .card-category {
   max-width: 530px;
   margin: 0 auto;
@@ -72,7 +64,7 @@
   font-size: 1.6rem;
   font-family: sans-serif;
   color: #333333;
-  background: white;
+  background: rgb(146, 0, 0);
 }
 
 .demo-icons a {
@@ -186,4 +178,103 @@
   box-shadow: none;
   outline: none;
   display: none;
+}
+.navbar-wrapper .container{
+  display: none;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar .nav>li.active-pro {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 10px;
+  }
+  .navbar-wrapper .container{
+    display: contents;
+  }
+
+  .menu-icon {
+    position: relative;
+    padding: 0.3rem;
+    display: inline-flex;
+    cursor: pointer;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+    margin-right:10px;
+    overflow: visible;
+    z-index: 1040;
+    left:0;
+  }
+
+  .menu-icon-box {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .menu-icon-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+    height: 1px;
+  }
+
+  .menu-icon-inner,
+  .menu-icon-inner::before,
+  .menu-icon-inner::after {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+
+  .menu-icon-inner::before,
+  .menu-icon-inner::after {
+    content: "";
+    display: block;
+  }
+
+  .menu-icon-inner::before {
+    top: -8px;
+  }
+
+  .menu-icon-inner::after {
+    bottom: -8px;
+  }
+
+
+  .menu-active .wrapper .menu {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top:53px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #667eea;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 3;
+    transform: translateX(-100%);
+    transition: transform 300ms cubic-bezier(.2, 0, .2, 1);
+  }
+  
+  .menu-inner {
+    display: block;
+  }
+
+  .container {
+    max-width: 1024px;
+    /* margin: 0 auto; */
+    text-align: right;
+  }
 }
